@@ -1,12 +1,12 @@
 let currentQuestionIndex = 0;
 let scores = {
-  companions: 0,
-  thieves: 0,
-  darkBrotherhood: 0,
-  college: 0,
-  stormcloaks: 0,
-  imperial: 0,
-  neutral: 0,
+  Companions: 0,
+  Thieves: 0,
+  Dark-Brotherhood: 0,
+  College: 0,
+  Stormcloaks: 0,
+  Imperial: 0,
+  Neutral: 0,
 };
 
 const questionEl = document.getElementById("question");
