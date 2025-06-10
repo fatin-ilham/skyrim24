@@ -1,9 +1,14 @@
-/* Skyrim style inspired */
+@font-face {
+  font-family: 'SkyrimFont';
+  src: url('fonts/skyrim-font.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   background: url('https://i.imgur.com/I1Wb6pF.jpg') no-repeat center center fixed;
   background-size: cover;
-  font-family: 'Uncial Antiqua', serif;
+  font-family: 'SkyrimFont', serif;
   color: #ddd;
   margin: 0;
   padding: 20px;
